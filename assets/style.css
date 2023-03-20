@@ -1,0 +1,15 @@
+:root{
+    --text-color: rgb(207, 29, 207);
+    --code-color: white;
+}
+header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+footer {
+    text-align: center;
+}
