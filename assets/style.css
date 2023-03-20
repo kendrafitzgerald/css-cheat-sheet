@@ -17,6 +17,7 @@ header {
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -28,5 +29,14 @@ footer {
 }
 section {
     border: 2px dashed black;
-    flex-basis: 33%;
+    flex-basis: 25%;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    border: 2px solid white;
+    color: var(--text-color);
+    width: 80%;
+    border-radius: 10px;
 }
